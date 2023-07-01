@@ -1,0 +1,25 @@
+{
+	"author" : "Kammer (code), Bacus (portraits), Andruids (revision&tranlation), Krotos (translation)",
+	"contact" : "acidcave.net",
+	"description" : "Adds two new tower heroes who can upgrade golems.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Heroes",
+	"name" : "Golemcraft",
+	"version" : "1.11",
+	"heroes" :
+    [ 
+	 "config/Nicolas.json",
+	 "config/Kalisa.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"changelog" :
+    {
+		"1.11"   : [ "New hero specialty format" ],
+		"1.1"   : [ "Englisation", "New specialty icons", "Small bug fixes" ],
+		"1.0"   : [ "Initial release" ]
+    }
+}

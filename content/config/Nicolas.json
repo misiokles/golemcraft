@@ -1,0 +1,64 @@
+{
+  "nicolasFlamel" :
+  {
+    "class" : "alchemist",
+    "female" : false,
+    "special" : false,
+	
+
+    "texts" :
+    {
+      "name" : "Nicolas Flamel",
+      "biography" : "Nicolas lost his eye during countless years of research and experiments, but he has finally succeeded.\nOnce he has mastered the art of transmuting metals into gold, he became deeply mistrustful and believes everyone is out there to get his riches. Surrounded by his golden creations, he rarely warms a tavern’s bed.",
+      "specialty" :
+      {
+        "description" : "{Gold Maker}\r\n\r\nCan upgrade Stone Golems into Gold Golems.",
+        "tooltip" : "Special Upgrade: Gold Golems",
+        "name" : "Gold Maker"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "GoldMaker-S.png",
+      "specialtyLarge" : "GoldMaker-B.png",
+      "large" : "Nicolas-b.png",
+      "small" : "Nicolas-s.png"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gremlin",
+        "max" : 20,
+        "min" : 12
+      },
+      {
+        "creature" : "stoneGolem",
+        "max" : 10,
+        "min" : 5
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "estates"
+      },
+      {
+        "level" : "basic",
+        "skill" : "mysticism"
+      }
+    ],
+	"specialty" : {
+		"base" : {
+			"addInfo" : "creature.goldGolem",
+			"type" : "SPECIAL_UPGRADE"
+		},
+		"bonuses" : {
+			"stoneGolem2goldGolem" : { "subtype" : "creature.stoneGolem" }
+		}
+	}
+  }
+}

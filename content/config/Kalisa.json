@@ -1,0 +1,65 @@
+{
+  "kalisa" :
+  {
+    "class" : "wizard",
+    "female" : true,
+    "special" : false,
+	"spellbook": ["viewEarth"],
+	
+
+    "texts" :
+    {
+      "name" : "Kalisa",
+      "biography" : "Kalisa could be a prime example of an adage that diamonds are girls’ best friends. \nEver since she was a small brat, she loved collecting precious stones with no regards to anyone's opinion or the law. \nAfter being exiled for her audacious and greedy ways, she found hearth and home in Bracada, where her passion gave birth to a revolutionary technique of creating golems.",
+      "specialty" :
+      {
+        "description" : "{Gem Mistress}\r\n\r\nCan upgrade Iron Golems into Diamond Golems.",
+        "tooltip" : "Can upgrade Iron Golems into Diamond Golems.}",
+        "name" : "Gem Mistress"
+      }
+    },
+
+    "images" :
+    {
+      "specialtySmall" : "GemMaster-S.png",
+      "specialtyLarge" : "GemMaster-B.png",
+      "large" : "Kalisa-b.png",
+      "small" : "Kalisa-s.png"
+    },
+
+    "army" :
+    [
+      {
+        "creature" : "gremlin",
+        "max" : 20,
+        "min" : 12
+      },
+      {
+        "creature" : "ironGolem",
+        "max" : 8,
+        "min" : 3
+      }
+    ],
+
+    "skills" :
+    [
+      {
+        "level" : "basic",
+        "skill" : "estates"
+      },
+      {
+        "level" : "basic",
+        "skill" : "resistance"
+      }
+    ],
+	"specialty" : {
+		"base" : {
+			"addInfo" : "creature.diamondGolem",
+			"type" : "SPECIAL_UPGRADE"
+		},
+		"bonuses" : {
+			"ironGolem2diamondGolem" : { "subtype" : "creature.ironGolem" }
+		}
+	}
+  }
+}
