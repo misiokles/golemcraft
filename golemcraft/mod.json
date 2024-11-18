@@ -6,7 +6,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Heroes",
 	"name" : "Golemcraft",
-	"version" : "1.11",
+	"version" : "1.12",
 	"heroes" :
     [ 
 	 "config/Nicolas.json",
@@ -16,8 +16,15 @@
 	{
 		"min" : "1.2.0"
 	},
+        "polish" : {
+		"name" : "Twórcy Golemów",
+		"description" : "Dodaje dwoje nowych bohaterów Wieży, mogących ulepszać golemy.",
+		"translations" : [
+			"translation/golemcraft/polish.json"
+		]
+	},
 	"changelog" :
-    {
+    {           "1.12"   : [ "Polish translation added by FallainBlack" ],
 		"1.11"   : [ "New hero specialty format" ],
 		"1.1"   : [ "Englisation", "New specialty icons", "Small bug fixes" ],
 		"1.0"   : [ "Initial release" ]
