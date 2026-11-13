@@ -11,7 +11,7 @@
 			"name" : "Kalisa",
 			"biography" : "Kalisa could be a prime example of an adage that diamonds are girls’ best friends. \nEver since she was a small brat, she loved collecting precious stones with no regards to anyone's opinion or the law. \nAfter being exiled for her audacious and greedy ways, she found hearth and home in Bracada, where her passion gave birth to a revolutionary technique of creating golems.",
 			"specialty" : {
-				"description" : "{Gem Mistress}\r\n\r\nCan upgrade Iron Golems into Diamond Golems.",
+				"description" : "Can upgrade Iron Golems into Diamond Golems.",
 				"tooltip" : "Can upgrade Iron Golems into Diamond Golems.}",
 				"name" : "Gem Mistress"
 			}

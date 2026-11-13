@@ -8,7 +8,7 @@
 			"name" : "Nicolas Flamel",
 			"biography" : "Nicolas lost his eye during countless years of research and experiments, but he has finally succeeded.\nOnce he has mastered the art of transmuting metals into gold, he became deeply mistrustful and believes everyone is out there to get his riches. Surrounded by his golden creations, he rarely warms a tavern’s bed.",
 			"specialty" : {
-				"description" : "{Gold Maker}\r\n\r\nCan upgrade Stone Golems into Gold Golems.",
+				"description" : "Can upgrade Stone Golems into Gold Golems.",
 				"tooltip" : "Special Upgrade: Gold Golems",
 				"name" : "Gold Maker"
 			}
