@@ -58,7 +58,15 @@
 			"type" : "SPECIAL_UPGRADE"
 		},
 		"bonuses" : {
-			"ironGolem2diamondGolem" : { "subtype" : "creature.ironGolem" }
+			"ironGolem2diamondGolem" : { 					
+				"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "ironGolem",
+							"includeUpgrades" : false
+						}
+				] 
+			}
 		}
 	}
   }

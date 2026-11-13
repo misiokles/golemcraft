@@ -53,11 +53,19 @@
     ],
 	"specialty" : {
 		"base" : {
-			"addInfo" : "creature.goldGolem",
+			"addInfo" : "goldGolem",
 			"type" : "SPECIAL_UPGRADE"
 		},
 		"bonuses" : {
-			"stoneGolem2goldGolem" : { "subtype" : "creature.stoneGolem" }
+			"stoneGolem2goldGolem" : { 					
+				"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "stoneGolem",
+							"includeUpgrades" : false
+						}
+				] 
+			}
 		}
 	}
   }
